@@ -17,11 +17,10 @@ redis_custom_sentinel_config: '/etc/redis/sentinel-ansible.conf'
 
 redis_daemonize: 'yes'
 redis_pidfile: '{{ redis_run_state }}/redis-server.pid'
-redis_logfile: '""'
 redis_syslog_enabled: 'no'
 redis_syslog_ident: 'redis'
 redis_syslog_facility: 'USER'
-redis_databases: 16
+
 
 
 # ---- Sentinel ----

@@ -31,7 +31,9 @@ redis_timeout: 0
 redis_tcp_keepalive: 0
 redis_tcp_backlog: 511
 redis_loglevel: 'notice'
+redis_databases: 16
 
+redis_logfile: '"/var/log/redis/redis-server.log"'
 
 # ---- Sentinel ----
 
